@@ -2,3 +2,8 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
    name: env-ops-quarkus-hello-world
+data:
+  application.yaml: |-
+    message: heyoooo
+    environment:
+      name: staging
