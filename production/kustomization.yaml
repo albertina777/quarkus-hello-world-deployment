@@ -1,15 +1,15 @@
 resources:
 - ../base
 - env-ops-configmap.yaml
-- rf011b18/configmap.yaml
+- r3e82d7c/configmap.yaml
 
 patches:
 - path: traffic-routing.yaml
   target:
     kind: Service
-- path: rf011b18/revision-patch.yaml
+- path: r3e82d7c/revision-patch.yaml
   target:
     kind: Service
-- path: rf011b18/routing-patch.yaml
+- path: r3e82d7c/routing-patch.yaml
   target:
     kind: Service
