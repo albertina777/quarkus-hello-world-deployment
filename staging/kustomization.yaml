@@ -7,9 +7,3 @@ patches:
 - path: traffic-routing.yaml
   target:
     kind: Service
-- path: r32e91a2/revision-patch.yaml
-  target:
-    kind: Service
-- path: r32e91a2/routing-patch.yaml
-  target:
-    kind: Service
