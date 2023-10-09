@@ -1,7 +1,7 @@
 - op: add
   path: /spec/template/metadata
   value:
-    name: quarkus-hello-world-rf011b18
+    name: quarkus-hello-world-staging
 - op: add
   path: /spec/template/spec/containers/0/image
   value:
