@@ -10,6 +10,3 @@ patches:
 - path: rbd4ab1e/revision-patch.yaml
   target:
     kind: Service
-- path: rbd4ab1e/routing-patch.yaml
-  target:
-    kind: Service
